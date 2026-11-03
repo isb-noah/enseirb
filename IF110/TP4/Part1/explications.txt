@@ -1,0 +1,13 @@
+Q9:
+mkdir R1 R2 R3 R4
+touch F1 F2 F3 F4 F5
+mv R2 R3 R4 F1 F2 F3 F4 F5 R1/
+cd R1
+mv F1 F2 R2/
+mv F4 F5 R4 R3/
+cd R3
+mv F4 F5 R4/
+
+Q10 il faut exit 1 pour renvoyer un status d'echec
+
+Q17 j'ai testé et je reste la ou j'ai executé le script
